@@ -20,12 +20,12 @@ const items = [
 
 //create my hooks/props
 function App() {
-  const [selectedItems, setSelectedItems] = useState([]);
-  const [bestScore, setBestScore] = useState(0);
-  const [shuffledItems, setShuffledItems] = useState(shuffleArray(items));
+  const [selectedItems, setSelectedItems] = useState([]); //store the items selected in an array
+  const [bestScore, setBestScore] = useState(0); //store the highest score starting at 0
+  const [shuffledItems, setShuffledItems] = useState(shuffleArray(items)); // //store and update the shuffled items
 }
 
-//shuffle the items
+//shuffle the items and do it randomly 
 
 
 
