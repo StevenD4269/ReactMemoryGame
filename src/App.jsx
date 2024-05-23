@@ -52,7 +52,11 @@ function App() {
       <p>Best Score: {bestScore}</p>
       <div className="item-container">
         {shuffledItems.map((item) => (
-          <div key={item.id} className="item" onClick={() => handleItemClick(item)}>
+          <div
+            key={item.id}
+            className="item"
+            onClick={() => handleItemClick(item)}
+          >
             {item.name}
           </div>
         ))}
